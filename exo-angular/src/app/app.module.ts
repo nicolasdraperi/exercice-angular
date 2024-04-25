@@ -13,7 +13,8 @@ import { DataExportComponent } from './data-export/data-export.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -19,7 +19,7 @@ export class DataExportComponent {
 
   getDataFromService() {
     this.data = this.dataService.getData()
-
+    this.downloadJson()
   }
 
   downloadJson() {
